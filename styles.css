@@ -642,3 +642,32 @@ img[src="logo.png"] {
   transform: scale(1.5); /* Adjust scaling factor as needed */
 }
 
+/* Mobile-friendly adjustments */
+@media screen and (max-width: 768px) {
+  .blog {
+    min-height: auto;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .blog__container {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .image-slider img {
+    width: 100%; /* Make images adjust to screen */
+    height: auto;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__socials a {
+    font-size: 24px;
+  }
+}
+
+

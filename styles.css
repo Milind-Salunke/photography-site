@@ -527,11 +527,15 @@ nav {
   .footer__col:nth-child(3) {
     border-left: 2px solid var(--text-dark);
   }
+  
+  .nav__links .nav__logo img {
+    max-width: 200px;
+  }
 }
 
 @media (width > 768px) {
   .header {
-    min-height: 650px;
+    min-height: 750px;
   }
 
   nav {

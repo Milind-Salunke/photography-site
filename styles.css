@@ -109,7 +109,7 @@ nav {
 
 /* Logo styling for mobile (default) */
 .nav__logo img {
-  max-width: 100px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -143,7 +143,7 @@ nav {
 }
 
 .nav__links .nav__logo img {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .nav__links a {
@@ -535,7 +535,7 @@ nav {
   }
   
   .nav__links .nav__logo img {
-    max-width: 120px;
+    max-width: 200px;
   }
 }
 
@@ -654,7 +654,7 @@ nav {
   }
   
   .nav__logo img {
-    max-width: 150px;
+    max-width: 200px;
   }
   
   .nav__links .nav__logo img {

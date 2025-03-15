@@ -108,12 +108,7 @@ nav {
 }
 
 .nav__logo img {
-  width: 150px;
-  height: auto;
-  object-fit: contain;
-  filter: brightness(1.2) contrast(1.5);
-  background: transparent !important;
-  mix-blend-mode: multiply;
+  max-width: 70px;
 }
 
 .nav__menu__btn {

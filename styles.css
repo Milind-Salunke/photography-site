@@ -677,4 +677,24 @@ nav {
   .footer__socials a {
     font-size: 1.5rem;
   }
+
+  /* Base logo styling */
+.header-logo {
+  width: 100px; /* Default size for mobile */
+  height: auto; /* Maintains aspect ratio */
 }
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 768px) {
+  .header-logo {
+    width: 150px;
+  }
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 1024px) {
+  .header-logo {
+    width: 200px;
+  }
+}
+

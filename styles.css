@@ -109,7 +109,7 @@ nav {
 
 /* Logo styling for mobile (default) */
 .nav__logo img {
-  max-width: 70px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -654,7 +654,7 @@ nav {
   }
   
   .nav__logo img {
-    max-width: 120px;
+    max-width: 150px;
   }
   
   .nav__links .nav__logo img {

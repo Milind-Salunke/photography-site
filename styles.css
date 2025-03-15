@@ -107,8 +107,10 @@ nav {
   background-color: var(--text-dark);
 }
 
+/* Logo styling for mobile (default) */
 .nav__logo img {
   max-width: 70px;
+  height: auto;
 }
 
 .nav__menu__btn {
@@ -138,6 +140,10 @@ nav {
 
 .nav__links .nav__logo {
   display: none;
+}
+
+.nav__links .nav__logo img {
+  max-width: 100px;
 }
 
 .nav__links a {
@@ -441,7 +447,7 @@ nav {
 }
 
 .footer__container img {
-  max-width: 170px;
+  max-width: 100px;
   margin-inline: auto;
   margin-bottom: 2rem;
 }
@@ -529,7 +535,7 @@ nav {
   }
   
   .nav__links .nav__logo img {
-    max-width: 200px;
+    max-width: 120px;
   }
 }
 
@@ -566,6 +572,14 @@ nav {
   }
 
   .nav__links .nav__logo img {
+    max-width: 150px;
+  }
+
+  .nav__logo img {
+    max-width: 100px;
+  }
+
+  .footer__container img {
     max-width: 150px;
   }
 
@@ -638,6 +652,18 @@ nav {
   .portfolio__grid {
     gap: 2rem;
   }
+  
+  .nav__logo img {
+    max-width: 120px;
+  }
+  
+  .nav__links .nav__logo img {
+    max-width: 200px;
+  }
+  
+  .footer__container img {
+    max-width: 170px;
+  }
 }
 
 /* Mobile-friendly adjustments */
@@ -677,24 +703,4 @@ nav {
   .footer__socials a {
     font-size: 1.5rem;
   }
-
-  /* Base logo styling */
-.header-logo {
-  width: 100px; /* Default size for mobile */
-  height: auto; /* Maintains aspect ratio */
 }
-
-/* Medium screens (tablets) */
-@media screen and (min-width: 768px) {
-  .header-logo {
-    width: 150px;
-  }
-}
-
-/* Large screens (desktops) */
-@media screen and (min-width: 1024px) {
-  .header-logo {
-    width: 200px;
-  }
-}
-
